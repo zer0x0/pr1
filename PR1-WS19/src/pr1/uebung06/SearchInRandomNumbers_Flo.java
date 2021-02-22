@@ -1,6 +1,8 @@
 package pr1.uebung06;
 
-import static pr.MakeItSimple.*;
+import static pr.MakeItSimple.print;
+import static pr.MakeItSimple.println;
+import static pr.MakeItSimple.readInt;
 
 import pr.MakeItSimple.PRException;
 
