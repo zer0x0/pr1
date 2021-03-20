@@ -1,6 +1,8 @@
 package pr1.uebung04;
 
-import static pr.MakeItSimple.*;
+import static pr.MakeItSimple.print;
+import static pr.MakeItSimple.println;
+import static pr.MakeItSimple.readInt;
 
 import pr.MakeItSimple.PRException;
 
@@ -63,7 +65,7 @@ public class Palindrome {
 				zahlReverse = zahlReverse * 10 + narray[arraymax - 1];
 				arraymax--;
 			}
-			
+
 			// Hier wird verglichen ob die eingegbene Zahl vorwärts und rückwärts gelesen
 			// gleich sind!
 			if (zahlReverse == zahlControl) {
